@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="240" viewBox="0 0 1440 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Waves background">
+  <defs>
+    <linearGradient id="wgrad" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,160 C240,220 480,120 720,160 C960,200 1200,140 1440,180 L1440,240 L0,240 Z" fill="url(#wgrad)" opacity="0.35"/>
+  <path d="M0,140 C240,200 480,100 720,140 C960,180 1200,120 1440,160 L1440,240 L0,240 Z" fill="url(#wgrad)" opacity="0.55"/>
+  <path d="M0,120 C240,180 480,80 720,120 C960,160 1200,100 1440,140 L1440,240 L0,240 Z" fill="url(#wgrad)" opacity="0.75"/>
+</svg>

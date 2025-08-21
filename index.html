@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Foot On The Beach — Premium Feet Photography</title>
+  <meta name="description" content="Foot On The Beach — premium, artsy beach-foot photography. Curated collections by Beach. Smooth animations, pro gallery, and simple purchasing." />
+  <link rel="icon" type="image/svg+xml" href="assets/images/brand/favicon.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Foot On The Beach" />
+  <meta property="og:description" content="Premium, artsy feet photography shot on the beach." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/gallery/placeholder-01.svg" />
+</head>
+<body>
+  <!-- Age Gate (simple compliance) -->
+  <div id="ageGate" class="age-gate hidden" aria-hidden="true" role="dialog" aria-labelledby="age-title">
+    <div class="age-gate__card">
+      <img src="assets/svg/foot-icon.svg" alt="" class="age-gate__icon"/>
+      <h2 id="age-title">Foot On The Beach</h2>
+      <p>By entering, you confirm you are 18+ and agree to our terms.</p>
+      <div class="age-gate__actions">
+        <button id="enterSite" class="btn btn--primary">I am 18+</button>
+        <a class="btn btn--ghost" href="https://www.google.com" rel="nofollow">Leave</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="nav__brand" href="#home" aria-label="Foot On The Beach home">
+        <img src="assets/svg/logo.svg" alt="Foot On The Beach logo" class="nav__logo"/>
+      </a>
+      <nav class="nav__menu" aria-label="Primary">
+        <a href="#gallery">Gallery</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn--sm btn--primary">Contact</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero__bg">
+      <img src="assets/svg/waves.svg" alt="" class="hero__waves"/>
+      <img src="assets/svg/pattern.svg" alt="" class="hero__pattern"/>
+    </div>
+    <div class="container hero__content">
+      <div class="hero__eyebrow">Premium Feet Photography</div>
+      <h1 class="hero__title"><span class="split">Foot On The Beach</span></h1>
+      <p class="hero__subtitle">Artsy, tasteful, sun‑kissed collections by <strong>Beach</strong>. Hand‑picked shots with professional color‑grading and style. Smooth, responsive, and animated to perfection.</p>
+      <div class="hero__cta">
+        <a href="#shop" class="btn btn--primary btn--lg">Shop Collections</a>
+        <a href="#gallery" class="btn btn--ghost btn--lg">View Gallery</a>
+      </div>
+      <div class="hero__badges">
+        <div class="badge"><span>HD/4K</span> Quality</div>
+        <div class="badge"><span>Secure</span> Purchase</div>
+        <div class="badge"><span>Curated</span> Sets</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section section--padded">
+    <div class="container section__head">
+      <h2 class="section__title">Gallery Preview</h2>
+      <p class="section__desc">A taste of the vibe. Replace the placeholders with Beach’s real photos in <code>assets/images/gallery/</code>.</p>
+    </div>
+    <div class="container">
+      <div class="gallery-grid">
+        <!-- 12 placeholders -->
+        <a href="assets/images/gallery/placeholder-01.svg" class="gallery-item" data-lightbox="g"><img src="assets/images/gallery/placeholder-01.svg" alt="Beach feet placeholder 1"></a>
+        <a href="assets/images/gallery/placeholder-02.svg" class="gallery-item" data-lightbox="g"><img src="assets/images/gallery/placeholder-02.svg" alt="Beach feet placeholder 2"></a>
+        <a href="assets/images/gallery/placeholder-03.svg" class="gallery-item" data-lightbox="g"><img src="assets/images/gallery/placeholder-03.svg" alt="Beach feet placeholder 3"></a>
+        <a href="assets/images/gallery/placeholder-04.svg" class="gallery-item" data-lightbox="g"><img src="assets/images/gallery/placeholder-04.svg" alt="Beach feet placeholder 4"></a>
+        <a href="assets/images/gallery/placeholder-05.svg" class="gallery-item" data-lightbox="g"><img src="assets/images/gallery/placeholder-05.svg" alt="Beach feet placeholder 5"></a>
+        <a href="assets/images/gallery/placeholder-06.svg" class="gallery-item" data-lightbox="g"><img src="assets/images/gallery/placeholder-06.svg" alt="Beach feet placeholder 6"></a>
+        <a href="assets/images/gallery/placeholder-07.svg" class="gallery-item" data-lightbox="g"><img src="assets/images/gallery/placeholder-07.svg" alt="Beach feet placeholder 7"></a>
+        <a href="assets/images/gallery/placeholder-08.svg" class="gallery-item" data-lightbox="g"><img src="assets/images/gallery/placeholder-08.svg" alt="Beach feet placeholder 8"></a>
+        <a href="assets/images/gallery/placeholder-09.svg" class="gallery-item" data-lightbox="g"><img src="assets/images/gallery/placeholder-09.svg" alt="Beach feet placeholder 9"></a>
+        <a href="assets/images/gallery/placeholder-10.svg" class="gallery-item" data-lightbox="g"><img src="assets/images/gallery/placeholder-10.svg" alt="Beach feet placeholder 10"></a>
+        <a href="assets/images/gallery/placeholder-11.svg" class="gallery-item" data-lightbox="g"><img src="assets/images/gallery/placeholder-11.svg" alt="Beach feet placeholder 11"></a>
+        <a href="assets/images/gallery/placeholder-12.svg" class="gallery-item" data-lightbox="g"><img src="assets/images/gallery/placeholder-12.svg" alt="Beach feet placeholder 12"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop -->
+  <section id="shop" class="section section--alt">
+    <div class="container section__head">
+      <h2 class="section__title">Shop Collections</h2>
+      <p class="section__desc">Choose a curated set or commission a custom shoot. Payments are handled off‑site for security.</p>
+    </div>
+    <div class="container cards">
+      <article class="card reveal">
+        <img src="assets/images/gallery/placeholder-04.svg" alt="" class="card__media">
+        <div class="card__body">
+          <h3>Sunset Basics Pack</h3>
+          <p>12 hand‑picked photos; warm tones, beach grit, close‑ups. Perfect intro.</p>
+          <div class="price"><span>$</span>19</div>
+          <a class="btn btn--primary" href="mailto:orders@footonthebeach.example?subject=Order%20Sunset%20Basics%20Pack&body=Hi%20Beach,%0A%0AI'd%20like%20to%20buy%20the%20Sunset%20Basics%20Pack.%0A">Buy via Email</a>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <img src="assets/images/gallery/placeholder-06.svg" alt="" class="card__media">
+        <div class="card__body">
+          <h3>Premium Tide Pack</h3>
+          <p>30 photos; multiple angles, day and night; raw + edited versions.</p>
+          <div class="price"><span>$</span>49</div>
+          <a class="btn btn--primary" href="mailto:orders@footonthebeach.example?subject=Order%20Premium%20Tide%20Pack&body=Hi%20Beach,%0A%0AI'd%20like%20to%20buy%20the%20Premium%20Tide%20Pack.%0A">Buy via Email</a>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <img src="assets/images/gallery/placeholder-01.svg" alt="" class="card__media">
+        <div class="card__body">
+          <h3>Custom Shoot</h3>
+          <p>Creative direction call + tailored session. Booking subject to approval.</p>
+          <div class="price"><span>from $</span>149</div>
+          <a class="btn btn--primary" href="mailto:orders@footonthebeach.example?subject=Custom%20Shoot%20Inquiry&body=Hi%20Beach,%0A%0AMy%20idea:%20%0ALocation%3A%0ADeadline%3A%0AReferences%3A%0A">Request Quote</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Testimonials (Swiper) -->
+  <section class="section" id="love">
+    <div class="container section__head">
+      <h2 class="section__title">What People Say</h2>
+      <p class="section__desc">Real feedback about the art direction and quality.</p>
+    </div>
+    <div class="container">
+      <div class="swiper testimonial-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide tcard">
+            <div class="tcard__quote">“Surprisingly tasteful and beautifully graded. The animations on the site are 🔥.”</div>
+            <div class="tcard__meta">— A. Rivera</div>
+          </div>
+          <div class="swiper-slide tcard">
+            <div class="tcard__quote">“Professional vibe, smooth gallery, easy purchase flow. Love the brand.”</div>
+            <div class="tcard__meta">— K. Ben-David</div>
+          </div>
+          <div class="swiper-slide tcard">
+            <div class="tcard__quote">“The custom set exceeded expectations. Clean, artsy, zero cringe.”</div>
+            <div class="tcard__meta">— M. Cohen</div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section section--alt">
+    <div class="container about">
+      <div class="about__media">
+        <img src="assets/svg/foot-icon.svg" alt="Foot icon">
+      </div>
+      <div class="about__body">
+        <h2 class="section__title">About the Project</h2>
+        <p>“Foot On The Beach” is a playful, design‑forward showcase of feet‑centric, beach‑themed photography. The brand leans into sun‑washed palettes, gentle motion, and approachable copy. This site is built to run on GitHub Pages: fast, static, and animated with modern libraries.</p>
+        <ul class="checklist">
+          <li>GSAP + ScrollTrigger reveal & parallax</li>
+          <li>Lenis smooth scrolling</li>
+          <li>Swiper testimonials</li>
+          <li>Accessible lightbox & responsive grid</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container section__head">
+      <h2 class="section__title">FAQ</h2>
+      <p class="section__desc">Answers to common questions.</p>
+    </div>
+    <div class="container faq">
+      <details class="faq__item reveal">
+        <summary>How do I replace the placeholder images?</summary>
+        <div class="faq__content">
+          Put your JPG/PNG files into <code>assets/images/gallery/</code> and update the <code>src</code>/<code>href</code> in the Gallery markup or keep the same file names to auto‑swap.
+        </div>
+      </details>
+      <details class="faq__item reveal">
+        <summary>Is there a backend?</summary>
+        <div class="faq__content">
+          This is a purely static site for GitHub Pages. Purchases route via email. You can later integrate a storefront like Gumroad/Payhip by changing the “Buy” links.
+        </div>
+      </details>
+      <details class="faq__item reveal">
+        <summary>Are these images explicit?</summary>
+        <div class="faq__content">
+          The brand is tastefully presented. You must comply with all local laws and ensure the model is 18+.
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section--padded">
+    <div class="container section__head">
+      <h2 class="section__title">Get in Touch</h2>
+      <p class="section__desc">For orders, custom ideas, or collabs.</p>
+    </div>
+    <div class="container contact">
+      <form class="contact__form" action="mailto:orders@footonthebeach.example" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us what you’re looking for…" required></textarea>
+        </div>
+        <button class="btn btn--primary" type="submit">Send Email</button>
+      </form>
+      <div class="contact__aside">
+        <h3>Brand Kit</h3>
+        <ul>
+          <li>Logo: <a href="assets/svg/logo.svg" download>logo.svg</a></li>
+          <li>Icon: <a href="assets/svg/foot-icon.svg" download>foot-icon.svg</a></li>
+          <li>Waves: <a href="assets/svg/waves.svg" download>waves.svg</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/svg/logo.svg" alt="Foot On The Beach" class="footer__logo"/>
+        <p>&copy; <span id="year"></span> Foot On The Beach. All rights reserved.</p>
+      </div>
+      <div class="footer__menu">
+        <a href="#gallery">Gallery</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Close">&times;</button>
+    <img class="lightbox__img" alt="Expanded image"/>
+    <div class="lightbox__nav">
+      <button class="lightbox__prev" aria-label="Previous">&#10094;</button>
+      <button class="lightbox__next" aria-label="Next">&#10095;</button>
+    </div>
+  </div>
+
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.44/bundled/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
